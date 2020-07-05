@@ -1,10 +1,10 @@
 let a = 'John';
 a = 'Sally';
-console.log('I am ' + a); -> I am Sally
+console.log('I am ' + a); //I am Sally
 
 const a = 'John';
-a = 'Sally'; -> constant는 바꾸기 불가 
-console.log(a); -> John
+a = 'Sally'; //constant는 바꾸기 불가 
+console.log(a); //John
 
 var a = 'John';
-console.log(a); -> John
+console.log(a); //John
