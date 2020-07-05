@@ -1,10 +1,52 @@
+// Variable
 let a = 'John';
 a = 'Sally';
-console.log('I am ' + a); //I am Sally
+console.log('I am ' + a); // I am Sally
 
 const a = 'John';
-a = 'Sally'; //constant는 바꾸기 불가 
-console.log(a); //John
+a = 'Sally'; // constant는 바꾸기 불가 
+console.log(a); // John
 
 var a = 'John';
-console.log(a); //John
+console.log(a); // John
+
+
+// Data type
+/* 
+'String'
+Number
+Float(소수점있는숫자)
+true/false
+*/
+
+
+// Array[] : 데이터 리스트로 나열
+const myFavorite = ["red", "yellow", "green", "blue", "purple", 5, true];
+console.log(favoriteColors); // [~]
+console.log(favoriteColors[2]); // green
+
+
+// Object{} -> variable: data 변수에 데이터값 부여 /*콤마 꼭 붙이기*/
+const mjInfo = {
+  name: "mj",
+  age: 22,
+  born: "Busan",
+  favSingers: ["Arashi", "KinKiKids", "TaylorSwift", "HarryStyles"],
+  favTVshow: [
+    {
+      name: "BingBangtheory",
+      fun: true
+    },
+    {
+      name: "Friends",
+      fun: true
+    }
+  ]
+}
+
+console.log(mjInfo.age); // 22
+mjInfo.age = 23;
+console.log(mjInfo.age); // 23
+console.log(favSingers); // [~]
+console.log(mjInfo.favTVshow[0]); // {name: "BingBangtheory", fun: true}
+console.log(mjInfo.favTVshow[0], name); // BigBangtheory
