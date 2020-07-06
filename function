@@ -1,0 +1,13 @@
+// function
+
+/* 
+functionName = sayHello
+argumentName1 = name
+argumentName2 = age
+*/
+
+function sayHello (name, age) {
+  console.log("Hello", name, "I am", age);
+}
+
+sayHello("John", 22); // Hello John I am 22
