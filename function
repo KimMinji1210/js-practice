@@ -22,7 +22,16 @@ const greetings = sayHello("minji", 22);
 console.log(greetings);                     // Hello John I am 22
 
 //
+/*
+calculator는 변수
+sum은 calculator라는 object 안에 변수(property)
+function(a, b)는 sum의 value
+*/
 
 const calculator = {
-  sum: function
+  sum: function(a, b) {
+    return a + b;
+  }
 }
+const plus = calculator.sum(5, 6);
+console.log(plus); // 11
