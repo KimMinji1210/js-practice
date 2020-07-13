@@ -53,3 +53,6 @@ const minus = calculator.minus(5, 4);
 const multiply = calculator.multiply(6, 5);
 const sum = plus + minus + multiply;
 console.log(`Total value: ${sum}`); // Total value: 38
+
+// (console이랑 calculator는 object
+    log()랑 plus()는 function)
