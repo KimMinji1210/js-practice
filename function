@@ -6,8 +6,23 @@ argumentName1 = name
 argumentName2 = age
 */
 
-function sayHello (name, age) {
-  console.log("Hello", name, "I am", age);
-}
+function sayHello (name, age) {                    // function sayHello (name, age) {
+  console.log("Hello", name, "I am", age);              console.log(`Hello ${name} I am ${age}`);     
+}                                                     } 
 
-sayHello("John", 22); // Hello John I am 22
+sayHello("John", 22); // Hello John I am 22           sayHello("John", 22); // "
+
+
+// return(함수에 값 부여)
+
+function sayHello (name, age) {
+  console.log(`Hello ${name} I am ${age}`); // 함수 sayHello undefined >> console.log 대신 return으로 써야함
+}
+const greetings = sayHello("minji", 22);
+console.log(greetings);                     // Hello John I am 22
+
+//
+
+const calculator = {
+  sum: function
+}
