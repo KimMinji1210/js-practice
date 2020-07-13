@@ -35,3 +35,22 @@ const calculator = {
 }
 const plus = calculator.sum(5, 6);
 console.log(plus); // 11
+
+//
+
+const calculator = {
+  plus: function(a, b) {
+    return a + b;
+  },
+  minus: function(a, b) {
+    return a - b;
+  },
+  multiply: function(a, b) {
+    return a * b;
+  },
+}
+const plus = calculator.plus(4, 3);
+const minus = calculator.minus(5, 4);
+const multiply = calculator.multiply(6, 5);
+const sum = plus + minus + multiply;
+console.log(sum); // 38
