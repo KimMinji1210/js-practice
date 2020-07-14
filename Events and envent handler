@@ -1,3 +1,4 @@
 Event: 웹사이트에서 발생하는 것들 EX) click, resize, submit...
 
-window.addEventListener("이벤트이름", 함수)
+window.addEventListener("이벤트이름", 함수) // 이벤트 받기를 기다림, 함수 호출
+
