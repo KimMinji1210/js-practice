@@ -2,3 +2,7 @@ Event: 웹사이트에서 발생하는 것들 EX) click, resize, submit...
 
 window.addEventListener("이벤트이름", 함수) // 이벤트 받기를 기다림, 함수 호출
 
+function handleClick() {
+    title.style.color = "red";
+}
+title.addEventListener("click", handleClick); // 클릭 할 때마다 빨간색으로 변함
