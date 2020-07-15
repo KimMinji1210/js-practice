@@ -23,3 +23,26 @@ if (age > 18) {
 } else {
     console.log("you cant");
 }
+
+
+// if, else 활용 event추가 (클릭할 때마다 색깔 바뀜)
+
+const title = document.querySelector("#title");
+
+const BASE_COLOR = "blue";
+const OTHER_COLOR = "white";
+
+function handleClick() {
+    const currentColor = title.style.color;
+    if (currentColor === BASE_COLOR) {
+        title.style.color = OTHER_COLOR;
+    } else {
+        title.style.color = BASE_COLOR;
+    }
+}
+
+function init() {
+    title.style.color = BASE_COLOR;
+    title.addEventListener("click", handleClick);
+}
+init();
