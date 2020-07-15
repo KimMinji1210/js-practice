@@ -49,4 +49,4 @@ mjInfo.age = 23;
 console.log(mjInfo.age); // 23
 console.log(favSingers); // [~]
 console.log(mjInfo.favTVshow[0]); // {name: "BingBangtheory", fun: true}
-console.log(mjInfo.favTVshow[0], name); // BigBangtheory
+console.log(mjInfo.favTVshow[0].name); // BigBangtheory
